@@ -11,6 +11,12 @@ d = {
     "surname" : "Shaikh"
 }
 
+d1 = {
+    "Name" : "Ozair",
+    "email" : "shaikhozair60@gmail.com",
+    "surname" : "Shaikh"
+}
+
 db1 = client['test1']
 coll = db1['test']
 coll.insert_one(d)
